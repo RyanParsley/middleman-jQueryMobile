@@ -42,6 +42,9 @@
 # with_layout :admin do
 #   page "/admin/*"
 # end
+with_layout "login/layout" do
+   page "/login/*"
+end
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
